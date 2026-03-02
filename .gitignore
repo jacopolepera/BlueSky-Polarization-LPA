@@ -1,0 +1,22 @@
+# Temporary and System Files
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets and Large Files
+POLITISKY24_Dataset/
+POLITISKY24_Layers/
+polarized_communities-master/datasets/
+
+# Data Formats
+*.parquet
+*.csv
+
+# polarized_communities results (ignore all EXCEPT .txt)
+polarized_communities-master/polarized_communities/results/*
+!polarized_communities-master/polarized_communities/results/*.txt
+
+# Ignore C files in polarized_communities-master
+polarized_communities-master/**/*.c
