@@ -1,7 +1,5 @@
 # Polarized Communities via Label Propagation (ASNM Project)
 
-Welcome to the **Analysis of Social Networks and Media (ASNM)** project developed by **Jacopo Alfonso Le Pera**.
-
 This repository explores the **2-Polarized Communities (2-PC)** problem on signed social networks by proposing an optimized variant of the Label Propagation Algorithm (LPA). The implementation utilizes a greedy approach driven by a **CELF-like priority queue** and an **orchestrator** for multi-run consensus, significantly outperforming traditional spectral algorithms (such as Eigensign) in terms of polarization scores.
 
 ---
@@ -48,7 +46,7 @@ Contains the implementation of the core algorithms:
 
 ## 🚀 Results
 
-Across various standard datasets (e.g., *bitcoin*, *epinions*, *wikiconflict*), the orchestrated **LPA 2-PC** algorithm showcased robust adaptability. On the custom `POLITISKY24` dataset, utilizing known stance labels (e.g., Pro-Trump/Anti-Harris) as fixed initial seeds permitted the orchestrator to achieve a polarization score $f(x) = 403.32$ across 1,861 labeled nodes, surpassing both isolated LPA runs and spectral baselines while maintaining viable execution times.
+Across various standard datasets (e.g., *bitcoin*, *epinions*, *wikiconflict*), the orchestrated **LPA 2-PC** algorithm showcased robust adaptability. On the custom `POLITISKY24` dataset, utilizing known stance labels (e.g., Pro-Trump/Pro-Harris) as fixed initial seeds permitted the orchestrator to achieve a polarization score $f(x) = 403.32$ across 1,861 labeled nodes, surpassing both isolated LPA runs and spectral baselines while maintaining viable execution times.
 
 ---
 
